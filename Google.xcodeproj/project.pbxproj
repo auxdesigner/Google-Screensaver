@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74C244271B5B09720054D822 /* GoogleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C244261B5B09720054D822 /* GoogleView.h */; };
+		74C244291B5B09720054D822 /* GoogleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C244281B5B09720054D822 /* GoogleView.m */; };
+		74C244301B5B0AB00054D822 /* build in Resources */ = {isa = PBXBuildFile; fileRef = 74C2442F1B5B0AB00054D822 /* build */; };
+		74C244321B5B0AC00054D822 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 74C244311B5B0AC00054D822 /* index.html */; };
+		74C244351B5B0DAF0054D822 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C244331B5B0DAF0054D822 /* thumbnail.png */; };
+		74C244361B5B0DAF0054D822 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C244341B5B0DAF0054D822 /* thumbnail@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74C244211B5B09720054D822 /* Google.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Google.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C244251B5B09720054D822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C244261B5B09720054D822 /* GoogleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleView.h; sourceTree = "<group>"; };
+		74C244281B5B09720054D822 /* GoogleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleView.m; sourceTree = "<group>"; };
+		74C2442F1B5B0AB00054D822 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		74C244311B5B0AC00054D822 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		74C244331B5B0DAF0054D822 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		74C244341B5B0DAF0054D822 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C2441D1B5B09720054D822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74C244171B5B09720054D822 = {
+			isa = PBXGroup;
+			children = (
+				74C244231B5B09720054D822 /* Google */,
+				74C244221B5B09720054D822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C244221B5B09720054D822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C244211B5B09720054D822 /* Google.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C244231B5B09720054D822 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				74C244331B5B0DAF0054D822 /* thumbnail.png */,
+				74C244341B5B0DAF0054D822 /* thumbnail@2x.png */,
+				74C244311B5B0AC00054D822 /* index.html */,
+				74C2442F1B5B0AB00054D822 /* build */,
+				74C244261B5B09720054D822 /* GoogleView.h */,
+				74C244281B5B09720054D822 /* GoogleView.m */,
+				74C244241B5B09720054D822 /* Supporting Files */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		74C244241B5B09720054D822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C244251B5B09720054D822 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74C2441E1B5B09720054D822 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C244271B5B09720054D822 /* GoogleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74C244201B5B09720054D822 /* Google */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C2442C1B5B09720054D822 /* Build configuration list for PBXNativeTarget "Google" */;
+			buildPhases = (
+				74C2441C1B5B09720054D822 /* Sources */,
+				74C2441D1B5B09720054D822 /* Frameworks */,
+				74C2441E1B5B09720054D822 /* Headers */,
+				74C2441F1B5B09720054D822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Google;
+			productName = Google;
+			productReference = 74C244211B5B09720054D822 /* Google.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C244181B5B09720054D822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = liuxliu;
+				TargetAttributes = {
+					74C244201B5B09720054D822 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 74C2441B1B5B09720054D822 /* Build configuration list for PBXProject "Google" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74C244171B5B09720054D822;
+			productRefGroup = 74C244221B5B09720054D822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C244201B5B09720054D822 /* Google */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C2441F1B5B09720054D822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C244301B5B0AB00054D822 /* build in Resources */,
+				74C244361B5B0DAF0054D822 /* thumbnail@2x.png in Resources */,
+				74C244321B5B0AC00054D822 /* index.html in Resources */,
+				74C244351B5B0DAF0054D822 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C2441C1B5B09720054D822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C244291B5B09720054D822 /* GoogleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74C2442A1B5B09720054D822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		74C2442B1B5B09720054D822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		74C2442D1B5B09720054D822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Google/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		74C2442E1B5B09720054D822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Google/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C2441B1B5B09720054D822 /* Build configuration list for PBXProject "Google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C2442A1B5B09720054D822 /* Debug */,
+				74C2442B1B5B09720054D822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C2442C1B5B09720054D822 /* Build configuration list for PBXNativeTarget "Google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C2442D1B5B09720054D822 /* Debug */,
+				74C2442E1B5B09720054D822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C244181B5B09720054D822 /* Project object */;
+}
